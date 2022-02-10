@@ -1,0 +1,11 @@
+name: "our-website"
+navbar:
+  title: "Penguins"
+  left:
+    - text: "Penguins"
+      href: index.html
+    - text: "sexual_dimorphisms"
+      href: sexual_dimorphisms.html 
+    - text: "single trait"
+      href: singletrait.html
+output_dir: "."
