@@ -1,0 +1,16 @@
+---
+title: "Single trait distribution"
+author: "RKT"
+date: "2/10/2022"
+output: html_document
+---
+
+## Single trait distribution
+The lowest bill length is around 0.01 and the highest is around 0.07.
+
+```{r}
+penguins %>%
+  ggplot() +
+  geom_density(mapping = aes(x = bill_length_mm, fill=species), alpha=0.5)
+
+```
